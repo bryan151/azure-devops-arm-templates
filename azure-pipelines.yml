@@ -15,9 +15,9 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'azureStudents'
-    subscriptionId: 'Azure para estudiantes'
+    subscriptionId: '3c1aea9c-0f71-40ca-9237-c8607d4f8bf0'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'jalabootcamp-bs-13'
+    resourceGroupName: 'jalabootcamp-bs-12'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
