@@ -17,7 +17,7 @@ steps:
     azureResourceManagerConnection: 'azureStudents'
     subscriptionId: '3c1aea9c-0f71-40ca-9237-c8607d4f8bf0'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'jalabootcamp-bs-13'
+    resourceGroupName: 'jalabootcamp-bs-14'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
