@@ -18,6 +18,7 @@ steps:
     subscriptionId: 'Azure para estudiantes'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'jalabootcamp-bs-12'
+    location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
     csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
