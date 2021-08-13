@@ -1,0 +1,67 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sshName": {
+      "value": "jalabootcamp-sshpk-01"
+    },
+    "sshTagName": {
+      "value": "jalabootcamp-sshpk-01"
+    },
+    "sshPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHIfpyRDNdnsgoN4Bhjei5H7Dh+ufC/cSoC0y2tsTc88D7nc8mi/S7HMHYeOFCXrWCc9fIGoFqeNMg69wihFVPdOPfJHtBHrljONzk0ICgm7x9HxhWQqJMwGwYqk3SzzaYzZv5iqGSwLtPa8GA4ZTNjwLIw3QYrXhN/Yaq1c8Mz/iHJ36ncts2Tz8eVigKqu83Vuet09ktqkOcARof27+yXHC14ZpF5KcEZpVp/qr1I1PQVPsPM1C0Jmuz9RCvNAImtL6x6CLwtPmkddojCpgIepkQJoKaUzsWBDBv9ZFAZP2JxSsrWINRzsasbFf0KDe3gf+MvNvYvTMtdoTKlERZ asus@Bryan_PC"
+    },
+    "keyVaultName": {
+      "value": "jalabootcamp-secret-01"
+    },
+    "enabledForDeployment": {
+      "value": true
+    },
+    "enabledForDiskEncryption": {
+      "value": false
+    },
+    "enabledForTemplateDeployment": {
+      "value": true
+    },
+    "enableSoftDelete": {
+      "value": true
+    },
+    "tenantId": {
+      "value": "1f9b1311-c757-4228-b0e2-7d4ade7932aa"
+    },
+    "objectId": {
+      "value": "026bb80d-5c79-48fb-a855-7462c2c64309"
+    },
+    "certificatesPermissions": {
+      "value": [
+        "get"
+      ]
+    },
+    "secretsPermissions": {
+      "value": [
+        "get","list","set","delete"
+      ]
+    },
+    "skuName": {
+      "value": "Standard"
+    },
+    "secretName": {
+      "value": "jalabootcamp-secret-payload-01"
+    },
+    "secretValue": {
+      "value": "2IiJTj9isML2~3Tjuc6BA-.~3GQB31~y~W  "
+    },
+    "projectName": {
+      "value": "jalabootcamp-vm-01"
+    },
+    "adminUsername": {
+      "value": "ubuntu"
+    },
+    "adminPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHIfpyRDNdnsgoN4Bhjei5H7Dh+ufC/cSoC0y2tsTc88D7nc8mi/S7HMHYeOFCXrWCc9fIGoFqeNMg69wihFVPdOPfJHtBHrljONzk0ICgm7x9HxhWQqJMwGwYqk3SzzaYzZv5iqGSwLtPa8GA4ZTNjwLIw3QYrXhN/Yaq1c8Mz/iHJ36ncts2Tz8eVigKqu83Vuet09ktqkOcARof27+yXHC14ZpF5KcEZpVp/qr1I1PQVPsPM1C0Jmuz9RCvNAImtL6x6CLwtPmkddojCpgIepkQJoKaUzsWBDBv9ZFAZP2JxSsrWINRzsasbFf0KDe3gf+MvNvYvTMtdoTKlERZ asus@Bryan_PC"
+    },
+    "vmSize": {
+      "value": "Standard_D2_v3"
+    }
+  }
+}
