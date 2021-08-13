@@ -12,7 +12,7 @@
       "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHIfpyRDNdnsgoN4Bhjei5H7Dh+ufC/cSoC0y2tsTc88D7nc8mi/S7HMHYeOFCXrWCc9fIGoFqeNMg69wihFVPdOPfJHtBHrljONzk0ICgm7x9HxhWQqJMwGwYqk3SzzaYzZv5iqGSwLtPa8GA4ZTNjwLIw3QYrXhN/Yaq1c8Mz/iHJ36ncts2Tz8eVigKqu83Vuet09ktqkOcARof27+yXHC14ZpF5KcEZpVp/qr1I1PQVPsPM1C0Jmuz9RCvNAImtL6x6CLwtPmkddojCpgIepkQJoKaUzsWBDBv9ZFAZP2JxSsrWINRzsasbFf0KDe3gf+MvNvYvTMtdoTKlERZ asus@Bryan_PC"
     },
     "keyVaultName": {
-      "value": "jalabootcamp-bs-secret-02"
+      "value": "jalabootcampBsSecret02"
     },
     "enabledForDeployment": {
       "value": true
